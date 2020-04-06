@@ -6,6 +6,18 @@ This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on P
 
 ## Getting Started
 
+Install requirements with:
+
+```bash
+  pip install -r requirements.txt
+```
+
+Install Mask_RCNN with:
+
+```bash
+  python setup.py install
+```
+
 To train the model run the following in the root of this repository:
 
 ```bash
