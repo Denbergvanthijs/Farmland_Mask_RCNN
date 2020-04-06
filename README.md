@@ -6,6 +6,14 @@ This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on P
 
 ## Getting Started
 
+To train the model run the following in the root of this repository:
+
+```bash
+  python ./farmland/farms.py train --dataset=datasets/farmpoly --weights=coco
+```
+
+The dataset can be found in [this Google Drive](https://drive.google.com/open?id=1RtAnQD1BTqPCXl_2qsh3m_bYv50fJZ7a) Folder. Place the dataset in the root directory of this repository.
+
 * [inspect_farm_data.ipynb](farmland/inspect_farm_data.ipynb) show the training and validation data. This notebook can be used to see if data gets loaded in properly.
 
 * [inspect_farm_model.ipynb](farmland/inspect_farm_model.ipynb) shows the trained farmland-model. This notebook can be used to see your predictions.
